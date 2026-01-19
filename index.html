@@ -1,1 +1,20 @@
-<h1>Hello<h1/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SWENG 861 - Cloud Image Upload</title>
+
+  <!-- Content Security Policy (XSS prevention) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src https://storage.googleapis.com;">
+</head>
+<body>
+  <h1>SWENG 861 – Cloud Image Upload</h1>
+
+  <img
+    src="https://storage.googleapis.com/sweng861-image/image.jpg"
+    alt="Image hosted on Google Cloud Storage"
+    width="500"
+  />
+</body>
+</html>
